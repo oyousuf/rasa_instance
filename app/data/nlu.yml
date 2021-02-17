@@ -84,9 +84,35 @@ nlu:
     - so saad
     - so sad
 
-- intent: bot_challenge
+- intent: appointment
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
+    - appointment
+    - set an appointment
+    - make an appointment
+    - I want to make an appointment
+    - I want to set an appointment
+    - make an appointment for me
+    - set an appointment for me
+
+- intent: TODO_item
+  examples: |
+    - set a reminder
+    - make a reminder
+    - set a reminder for me
+    - make a reminder for me
+    - i have to do groceries
+    - i have to go to the store
+    - set a reminder for five o'clock
+    - create a to do list
+    - make a to do list
+    - make a list for me
+    - create a list for me
+
+- intent: timer
+  examples: |
+    - set a timer
+    - set a timer for an hour
+    - make a time
     - am I talking to a human?
+
+
