@@ -115,4 +115,13 @@ nlu:
     - make a time
     - am I talking to a human?
 
+- intent: pokedex
+  examples: |
+    - entry
+    - pokedex
+    - encounter
+    - input
+    - update pokedex
+    - enter information
+
 
